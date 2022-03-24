@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#5B110E",
+        "titleBar.activeBackground": "#7F1814",
+        "titleBar.activeForeground": "#FEFBFB"
+    },
+    "open-in-browser.default": "firefox"
+}
