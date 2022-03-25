@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="../styles/style.css">
+    
+    <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,7 @@
     <!-- ------------------------------- HEADER -------------------------------- INI -->
     <header>
         <nav>
-            <img class="logo" src="../images/logo.svg" alt="manage">
+            <img class="logo" src="./images/logo.svg" alt="manage">
             <ul>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Product</a></li>
@@ -31,23 +32,36 @@
         <nav>
 
             <div class="footerLogo">
-                <img class="logo" src="/images/logoFooter.svg" alt="manage">
+                <img class="logo" src="./images/logoFooter.svg" alt="manage">
+            
+                    <div class="footerRedes">
+                       <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                       <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                       <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                       <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                       <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
             </div>
 
-            <div class="footerLinks">
-                <ul>
+                <ul class="footerLink footerLinksOne">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Product</a></li>
                     <li><a href="#">About Us</a></li>
+                </ul>
+
+                <ul class="footerLink footerLinksTwo">
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Community</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
-            </div>
-
+            
             <div class="footerForm">
-                <button class="getStartedOrange">Get Started</button>
+                <form action="">
+                    <input type="text" placeholder="Update in your inbox...">
+                <button class="goOrange">Go</button>
+                </form>
             </div>
         </nav>
     </footer>
